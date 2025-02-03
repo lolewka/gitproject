@@ -1,0 +1,1293 @@
+@media screen and (max-width: 1199px) {
+    .main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .sidebar {
+        left: -630px;
+
+        .open {
+            left: -250px;
+        }
+    }
+
+    .projects {
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .project-container {
+                padding-left: 10px;
+                padding-right: 10px;
+
+                .projects-card {
+                    .project-card {
+                        margin-top: 100px;
+                        flex-direction: column;
+                        align-items: center;
+
+                        .details-section {
+                            /*width: 588px;*/
+                            align-items: center;
+                            gap: 20px;
+
+                            p {
+                                width: 600px;
+                                text-align: center;
+                            }
+
+                            .actions {
+                                flex-direction: row;
+                            }
+
+                        }
+
+                    }
+
+                    .card1 {
+                        flex-direction: column;
+                    }
+
+
+                }
+
+            }
+
+            .allProject {
+                left: 0;
+
+            }
+
+
+        }
+
+
+    }
+
+
+    .technology-section {
+        padding-left: 10px;
+        padding-right: 10px;
+
+        .container {
+            .image-container {
+                .point {
+                    z-index: 9;
+
+                    &:hover .tooltip {
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+
+                .tooltip {
+                    visibility: hidden;
+                    opacity: 0;
+                    width: 290px;
+                    padding: 20px 19px;
+                    background: #313139;
+                }
+
+                .point1 {
+                    .tooltip1 {
+                        top: 100px;
+                        left: -133px;
+                    }
+                }
+
+                .point2 {
+                    .tooltip2 {
+                        top: 110px;
+                        left: -60px;
+                    }
+
+                }
+
+                .point3 {
+                    .tooltip3 {
+                        top: 100px;
+                        left: -80px;
+                    }
+
+                }
+
+                .point4 {
+                    .tooltip4 {
+                        top: 95px;
+                        left: -123px;
+                    }
+
+                }
+
+                .point5 {
+                    .tooltip5 {
+                        top: 95px;
+                        left: -100px;
+                    }
+
+                }
+            }
+        }
+    }
+
+
+    .line_1, .line_2, .line_3, .line_4, .line_5, .line_6, .line_7, .line_8, .line_9 {
+        visibility: hidden;
+    }
+
+    /*.point:hover .tooltip {*/
+    /*    opacity: 1;*/
+    /*    visibility: visible;*/
+    /*}*/
+    .steps-section {
+        padding-left: 10px;
+        padding-right: 10px;
+
+        .container {
+            .steps {
+                grid-template-columns: repeat(2, 307px);
+            }
+        }
+
+    }
+
+
+    .slick-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .armour {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .wrapper1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .wrapper2 {
+    }
+
+    .section1_1 {
+        margin-bottom: 20px;
+    }
+
+    .section1_1:last-child {
+        margin-bottom: 0;
+    }
+
+    .consultation-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .consultation-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .excursion-section {
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .background-map img {
+        max-width: 1000px;
+    }
+
+    /* Позиционирование маркеров */
+    .marker-1 {
+        top: 28%;
+        left: 16%;
+    }
+
+    .marker-2 {
+        top: 37%;
+        left: 22%;
+    }
+
+    .marker-3 {
+        top: 47%;
+        left: 26%;
+    }
+
+    .marker-4 {
+        top: 44%;
+        left: 29%;
+    }
+
+    .marker-5 {
+        top: 26%;
+        left: 79%;
+
+    }
+
+    .marker-6 {
+        top: 48%;
+        left: 78%;
+    }
+
+    .marker-7 {
+        top: 52%;
+        left: 15%;
+    }
+
+    .marker-8 {
+        top: 53%;
+        left: 72%;
+    }
+
+
+    .marker-9 {
+        top: 37%;
+        left: 71%;
+    }
+
+    .marker-10 {
+        top: 57%;
+        left: 31%;
+    }
+
+    .marker-11 {
+        top: 63%;
+        left: 76%;
+    }
+
+    .contact-section {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 65px;
+    }
+
+    .footer-address {
+        width: 215px;
+
+    }
+
+    .footer-address p {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .HomeSocialMedia {
+        left: 679px;
+    }
+
+    .background-map img {
+        max-width: 780px;
+    }
+
+    .allProject {
+        left: 250px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .line1 {
+        display: none;
+    }
+
+    .tooltip {
+        top: 3px;
+        left: -205px;
+    }
+
+    .tooltip::before {
+        left: 199px;
+        transform: rotate(180deg);
+    }
+
+    .tooltip1 {
+        left: 25px;
+    }
+
+    .tooltip1::before {
+        left: -10px;
+        transform: rotate(0deg);
+        top: 50%;
+    }
+
+    .tooltip2 {
+        left: 25px;
+    }
+
+    .tooltip2::before {
+        left: -9px;
+        transform: rotate(0deg);
+        top: 50%;
+    }
+
+    .tooltip3 {
+        left: 25px;
+    }
+
+    .tooltip3::before {
+        left: -9px;
+        transform: rotate(0deg);
+    }
+
+    .armour {
+        .container {
+            .wrapper1 {
+                .section1_1 {
+                    .section1_1-card {
+                        justify-content: space-evenly;
+                        align-items: flex-start;
+
+
+                        .section1_1-icons {
+                            img {
+                                width: 35px;
+                                height: 35px;
+                            }
+
+                        }
+                    }
+                }
+
+
+            }
+
+            .wrapper2 {
+                display: grid;
+                gap: 30px;
+            }
+
+        }
+
+    }
+
+
+    .background-map img {
+        max-width: 700px;
+    }
+
+    .excursion-section {
+        .container {
+            height: 525px;
+
+            .excursion-content {
+                top: 153px;
+            }
+        }
+
+
+    }
+
+
+    .marker-10 {
+        top: 63%;
+    }
+
+
+    .marker img {
+        width: 15px;
+        height: 100%;
+    }
+
+    .excursion-content {
+        max-width: 300px;
+        top: 83px;
+        left: 14px;
+    }
+
+    .excursion-title {
+        font-size: 30px;
+
+    }
+
+    .excursion-description {
+        font-size: 16px;
+    }
+
+    .consultation-content {
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .main {
+        .header {
+            .container {
+                .header-items {
+                    .main-info {
+                        display: none;
+                    }
+
+                    .logo {
+                        position: static;
+                    }
+
+                }
+            }
+        }
+
+        .home {
+            .container {
+                .home-content {
+                    .home-title {
+                        h1 {
+                            font-size: 26px;
+                        }
+
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .details-section p {
+        text-align: left;
+        width: 400px;
+    }
+
+    .actions {
+        flex-direction: column;
+    }
+
+    .projects {
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .project-container {
+                .projects-card {
+
+                    .project-card {
+                        gap: 80px;
+                        margin-bottom: 80px;
+
+                        .image-section {
+                            img {
+                                width: 400px;
+                                height: 100%;
+                            }
+
+                            .thumbnail-images {
+                                img {
+                                    width: 117px;
+                                    height: 100%;
+                                }
+                            }
+                        }
+
+                        .details-section {
+                            p {
+                                font-size: 14px;
+                                width: 300px;
+
+                            }
+
+                            .info {
+                                gap: 20px;
+
+                            }
+
+                            .actions {
+                                flex-direction: column;
+                            }
+                        }
+
+                    }
+
+
+                }
+            }
+
+            .allProject {
+                /*margin-top: 0;*/
+                /*position: static;*/
+
+            }
+        }
+
+
+    }
+
+
+    .technology-section {
+        .container {
+            .image-container {
+                img {
+                    width: 100%;
+                }
+
+                .point1 {
+                    .tooltip1 {
+                        top: 100px;
+                        left: -96px;
+                    }
+                }
+
+                .point2 {
+                    .tooltip2 {
+                        top: 110px;
+                        left: -60px;
+                    }
+
+                }
+
+                .point3 {
+                    .tooltip3 {
+                        top: 100px;
+                        left: -80px;
+                    }
+
+                }
+
+                .point4 {
+                    .tooltip4 {
+                        top: 95px;
+                        left: -233px;
+                    }
+
+                }
+
+                .point5 {
+                    .tooltip5 {
+                        top: 95px;
+                        left: -168px;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .steps-section {
+        .container {
+            .steps {
+                grid-template-columns: repeat(1, 307px);
+            }
+        }
+    }
+
+    .armour {
+        .container {
+            .wrapper1 {
+                .section1_1 {
+                    max-width: 290px;
+                    padding: 19px 0 20px 0;
+
+                    .section1_1-card {
+                        justify-content: space-evenly;
+                        align-items: flex-start;
+
+                        .section1_1-text {
+
+                            h3 {
+                                font-size: 16px;
+                            }
+
+                            p {
+                                font-size: 14px;
+                                width: 215px;
+                            }
+                        }
+
+                        .section1_1-icons {
+                            img {
+                                width: 35px;
+                                height: 35px;
+                            }
+
+                        }
+                    }
+                }
+
+
+            }
+
+            .wrapper2 {
+                flex-direction: column;
+                align-items: center;
+
+
+            }
+        }
+
+    }
+
+
+    .consultation-section {
+
+
+        .container {
+
+            .consultation-content {
+                .consultation-form {
+                    width: 320px;
+
+                }
+
+                .house-image {
+                    display: none;
+
+                }
+            }
+        }
+    }
+
+
+    .excursion-section {
+        padding-top: 75px;
+        padding-bottom: 0;
+
+        .container {
+            height: 386px;
+
+            .excursion-content {
+                top: 50px;
+                left: 0;
+
+                .excursion-title {
+                    font-size: 40px;
+                }
+
+                .excursion-description {
+                    font-size: 14px;
+                }
+            }
+
+            .background-map {
+                .marker {
+                    display: none;
+                }
+            }
+        }
+    }
+
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 51px;
+    }
+
+    .footer-logo-social {
+        order: 1;
+    }
+
+    .footer-address {
+        order: 2;
+        width: 300px;
+    }
+
+    .footer-contact {
+        order: 3;
+    }
+
+}
+
+@media (max-width: 424px) {
+    .main {
+        .header {
+            .container {
+                .header-items {
+                    width: 200px;
+
+                    .sidebar {
+                        padding: 35px 15px 80px 16px;
+                        width: 191px;
+                    }
+
+                }
+            }
+        }
+
+        .home {
+            .container {
+                .home-content {
+                    .home-title {
+                        .home-btn {
+                            width: 228px;
+                            font-size: 16px;
+
+                        }
+                    }
+
+                    .HomeSocialMedia {
+                        display: none;
+                    }
+
+                    .navigation {
+                        display: none;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .projects {
+        .container {
+            align-items: center;
+
+            .project-container {
+                h2 {
+                    font-size: 30px;
+                    text-align: center;
+                }
+
+                .projects-card {
+                    .project-card {
+                        .image-section {
+                            img {
+                                width: 291px;
+                            }
+
+                            .thumbnail-images {
+                                gap: 10px;
+
+                                img {
+                                    width: 90px;
+                                }
+                            }
+                        }
+
+                        .details-section {
+                            h3 {
+                                font-size: 18px;
+                            }
+
+                            p {
+                                text-align: center;
+                                width: 271px;
+                            }
+
+                            .info {
+                                gap: 18px;
+
+                                .info-item {
+                                    width: 85px;
+                                    height: 85px;
+
+                                    span {
+                                        font-size: 15px;
+                                    }
+                                }
+
+                            }
+
+                            .actions {
+                                .consult-btn {
+                                    width: 290px;
+                                    font-size: 16px;
+                                }
+
+                                .download-btn {
+                                    width: 290px;
+                                    font-size: 16px;
+
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                .allProject {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .consultation-section {
+        .container {
+            .consultation-content {
+                .consultation-form {
+                    width: 320px;
+
+                    .form-title {
+                        font-size: 30px;
+                        width: 232px;
+                    }
+
+                    fieldset {
+                        align-items: center;
+
+                        input[type="text"],
+                        input[type="tel"] {
+                            width: 290px;
+                        }
+
+                        .btn-submit {
+                            width: 290px;
+                        }
+
+                        .custom-checkbox {
+                            .checkbox-text {
+                                width: 290px;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width: 374px) {
+    .main {
+        .header {
+            .container {
+                .header-items {
+                    width: 200px;
+
+                    .sidebar {
+                        padding: 35px 15px 80px 16px;
+                        width: 191px;
+                    }
+
+                }
+            }
+        }
+
+        .home {
+            .container {
+                .home-content {
+                    .home-title {
+                        .home-btn {
+                            width: 228px;
+                            font-size: 16px;
+
+                        }
+                    }
+
+                    .HomeSocialMedia {
+                        display: none;
+                    }
+
+                    .navigation {
+                        display: none;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .projects {
+        .container {
+            align-items: baseline;
+
+            .project-container {
+                h2 {
+                    font-size: 30px;
+                    text-align: left;
+                }
+
+                .projects-card {
+                    .project-card {
+                        .image-section {
+                            img {
+                                width: 291px;
+                            }
+
+                            .thumbnail-images {
+                                gap: 10px;
+
+                                img {
+                                    width: 90px;
+                                }
+                            }
+                        }
+
+                        .details-section {
+                            h3 {
+                                font-size: 18px;
+                            }
+
+                            p {
+                                text-align: left;
+                                width: 271px;
+                            }
+
+                            .info {
+                                gap: 18px;
+
+                                .info-item {
+                                    width: 85px;
+                                    height: 85px;
+
+                                    span {
+                                        font-size: 15px;
+                                    }
+                                }
+
+                            }
+
+                            .actions {
+                                .consult-btn {
+                                    width: 290px;
+                                    font-size: 16px;
+                                }
+
+                                .download-btn {
+                                    width: 290px;
+                                    font-size: 16px;
+
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+
+            }
+
+            .allProject {
+                font-size: 15px;
+                left: 50px;
+                top: 60px;
+            }
+        }
+    }
+
+
+    .technology-section {
+        .container {
+            .title {
+                font-size: 30px;
+            }
+
+            .content {
+                .image-container {
+
+                    .tooltip {
+                        width: 280px;
+
+                        .tooltip-title {
+                            font-size: 16px;
+                        }
+
+                        .tooltip-text {
+                            font-size: 14px;
+                        }
+                    }
+
+                    .point1 {
+                        .tooltip1 {
+                            top: 100px;
+                            left: -63px;
+                        }
+                    }
+
+                    .point2 {
+                        .tooltip2 {
+                            top: 110px;
+                            left: -43px;
+                        }
+
+                    }
+
+                    .point3 {
+                        .tooltip3 {
+                            top: 81px;
+                            left: -108px;
+                        }
+
+                    }
+
+                    .point4 {
+                        .tooltip4 {
+                            top: 95px;
+                            left: -225px;
+                        }
+
+                    }
+
+                    .point5 {
+                        .tooltip5 {
+                            top: 95px;
+                            left: -182px;
+                        }
+
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .steps-section {
+        .container {
+            .section-title {
+                font-size: 30px;
+            }
+
+            .steps {
+                gap: 50px;
+
+                .step {
+                    .step-info {
+                        width: 215px;
+
+                        .step-title {
+                            font-size: 16px;
+                        }
+
+                        .step-description {
+                            font-size: 16px;
+                        }
+
+                    }
+                }
+
+            }
+        }
+    }
+
+    .slick-section {
+        .container {
+            h3 {
+                font-size: 30px;
+            }
+
+            .block-text-title {
+                text-align: left;
+                width: 125px;
+
+                h3 {
+                    margin-bottom: 15px;
+                    font-size: 14px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+
+            .block-text-info {
+                width: 154px;
+
+                P {
+                    margin-bottom: 15px;
+                    font-size: 14px;
+                }
+
+            }
+
+            .divider {
+                height: 62px;
+                margin: 2px;
+            }
+        }
+    }
+
+    .slider__item.slick-center img {
+        height: 294px;
+        width: 301px;
+        object-fit: cover;
+    }
+
+    .slider {
+        padding: 0;
+    }
+
+    .wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .slick-list {
+        height: 325px !important;
+        padding: 0 0 0 0 !important;
+    }
+
+    .slider__item.slick-center .block-text {
+        width: 301px;
+        align-items: flex-start;
+    }
+
+
+    .armour {
+
+        .container {
+            .armour-title {
+                font-size: 30px;
+            }
+
+            .wrapper2 {
+                .section2_1 {
+                    .section2_1-icon {
+                        width: 100px;
+                        height: 100px;
+
+                        img {
+                            width: 50px;
+                            height: 50px;
+                        }
+                    }
+
+                    .section2_1-text {
+                        h3 {
+                            font-size: 16px;
+                        }
+
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+            .cta-button {
+                margin-top: 50px;
+
+                .button {
+                    padding: 18px 13px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .consultation-section {
+        .container {
+            .consultation-content {
+                .consultation-form {
+                    width: 320px;
+
+                    .form-title {
+                        font-size: 30px;
+                        width: 232px;
+                    }
+
+                    fieldset {
+                        align-items: center;
+
+                        input[type="text"],
+                        input[type="tel"] {
+                            width: 290px;
+                        }
+
+                        .btn-submit {
+                            width: 290px;
+                        }
+
+                        .custom-checkbox {
+                            width: 290px;
+
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+
+    .excursion-section {
+        .container {
+            .excursion-content {
+                .excursion-title {
+                    font-size: 30px;
+                }
+
+                .excursion-description {
+                    font-size: 16px;
+                    width: 276px;
+                }
+
+                .btn-register {
+                    width: 290px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+
+    .popup {
+        width: 290px;
+        height: 398px;
+        left: 6%;
+        top: 24%;
+        justify-content: normal;
+
+        .popup-content {
+            .popup-close {
+                left: 267px;
+
+                img {
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+
+            h3 {
+                font-size: 14px;
+                width: 288px;
+            }
+
+            .consultation-form_popup {
+
+
+                fieldset {
+
+
+                    input[type="text"],
+                    input[type="tel"] {
+                        width: 272px;
+                        height: 47px;
+                        font-size: 14px;
+                        font-family: "MuseoSansCyrl300", sans-serif;
+                        padding: 0;
+                        padding-left: 27px;
+
+
+                    }
+
+                    /* Кнопка отправки */
+
+                    .btn-submit {
+                        width: 272px;
+                        height: 47px;
+
+
+                    }
+
+                    .custom-checkbox_popup {
+                        margin-top: 24px;
+                        gap: 21px;
+                        width: 272px;
+
+                        .checkbox-text {
+                            font-size: 12px;
+                            width: 272px;
+
+                        }
+                    }
+
+                }
+
+            }
+
+        }
+    }
+
+}
